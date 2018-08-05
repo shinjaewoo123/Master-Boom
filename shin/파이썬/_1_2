@@ -1,2 +1,31 @@
 # 파이썬 기초
 # 챕터 1, 2
+
+[1장] 파이썬 맛보기
+    - 파이썬은 생산성이 뛰어난 언어
+    - 동적 언어(변수 타입 선언 강요 X, 타입 변경 가능)
+    - 범용의 고수준 언어, 읽기 쉬움
+    - 일반적으로 C, C++ 보다 느림 (그러나 일부만 C로 작성하여 사용 가능)
+    - 파이썬 3 버전 사용 (2 - 고전, 3 - 계속 지원, 유니코드)
+    - 파이썬 철학 (가독성이 좋고 쉽고 명확한 것 선호)
+
+[2장] 숫자, 문자열, 변수
+    - 간단한 데이터 타입 설명
+        - 파이썬의 모든 것은 객체로 구현 되어있음
+        - 타입 (가변 mutable, 불변 immutable)
+        - 부울, 정수, 실수, 문자열
+    - 변수 (메모리 안 값 참조 위한 이름)
+    - 클래스 (객체의 정의)
+    - 숫자
+        - // (정수 나누기 - 소수점 이하 버림)
+    - 정수 (파이썬의 int는 유연, 64비트보다 더 큰 공간을 가질 수 있음)
+    - 부동소수점수 (float)
+    - 우선순위
+    - 진수 (2 - 0b,0B, 8 - 0o, 0O, 16 - 0x, 0X)
+    - 형변환
+    - 문자열 (시퀀스, 불변)
+        - +, *, [], [start:end:step] - slice, len() - 파이썬 내장, str.split() - 구분자 기준 나누기, str.join() - 구분자 기준 결합, ..
+        - str.startswith(), str.endswith(), str.find(), str.rfind(), str.count(), str.isalnum(), ..
+        - str.strip(), str.capitalize(), str.title(), str.upper(), str.lower(), str.swapcase(), str.center(), str.ljust(), str.rjust(), ..
+        - str.replace(), 등등 많은 문자열 함수.. 
+        - 표준 문서 웹사이트 참고 : https://docs.python.org/3/library/stdtypes.html#string-methods
